@@ -1,0 +1,17 @@
+:root {
+    --cor-de-fundo: #E5E5E5;
+    
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --rosa-claro: #FF9D9E;
+    --creme: #FCF0E3;
+
+    --cinza: #737380;    
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+    --branco: #FFFFFF;
+
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'IBM Plex Sans';
+}
