@@ -1,4 +1,6 @@
 @import url('_variaveis.css');
+@import url('./css/cadastro.css');
+@import url('./css/login.css');
 
 * {
     padding: 0;
@@ -6,8 +8,11 @@
     box-sizing: border-box;
 }
 
-body {
-        background-image: 
+.principal {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    background-image: 
             url('../img/Forma-1.svg'),
             url('./img/Forma-2.svg'),
             url('./img/Ilustração.svg');
@@ -17,12 +22,6 @@ body {
         font-family: var(--fonte-principal);
         font-size: 16px;
         font-weight: 400;
-}
-
-.principal {
-    background-color: var(--azul);
-    display: flex;
-    flex-direction: column;
 }
 
 .cabecalho {
@@ -63,7 +62,7 @@ body {
     background-color: var(--coral);
     border-radius: 6px;
     padding: 0.5em;
-
+    font-weight: 600;
     color: var(--branco);
     text-decoration: none;
     width: 12rem;
@@ -74,4 +73,8 @@ body {
     color: var(--branco);
     padding: 3em;
     text-align: center;
+}
+
+.senha {
+    margin-bottom: .5em;
 }

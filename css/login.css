@@ -1,0 +1,23 @@
+.cadastro-login {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.conteudo__login {
+    color: var(--coral);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.botao__login {
+        margin: 2em auto 1em auto;
+    
+        display: block;
+        background-color: var(--coral);
+        border-radius: 6px;
+        padding: 0.5em;
+        font-weight: 600;
+        color: var(--branco);
+        text-decoration: none;
+        width: 12rem;
+}
