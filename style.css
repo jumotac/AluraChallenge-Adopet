@@ -3,6 +3,7 @@
 @import url('./css/login.css');
 @import url('./css/home.css');
 @import url('./css/mensagem.css');
+@import url('./css/perfil.css');
 
 * {
     padding: 0;
