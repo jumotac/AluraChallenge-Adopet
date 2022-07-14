@@ -2,6 +2,7 @@
 @import url('./css/cadastro.css');
 @import url('./css/login.css');
 @import url('./css/home.css');
+@import url('./css/mensagem.css');
 
 * {
     padding: 0;

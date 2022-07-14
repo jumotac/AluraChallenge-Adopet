@@ -1,0 +1,45 @@
+.mensagem {
+    background-color: var(--cinza-claro-fundos);
+    margin: 1em 1.5em;
+    border-radius: 10px;
+    padding: 2em 2em;    
+}
+
+.mensagem__titulo {
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1em 0 .5em 0;
+}
+
+.mensagem__input {
+    background: var(--branco);
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 1em 1em;
+    width: 100%;
+    border: none;
+}
+
+.msg {
+    padding-bottom: 10em;
+}
+
+.mensagem__input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.mensagem__link {
+    margin: 2em auto 0 auto;
+    display: block;
+    background-color: var(--coral);
+    border-radius: 6px;
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    width: 50%;
+}
