@@ -1,0 +1,69 @@
+.principal-home {
+    display: flex;
+    flex-direction: column;
+    background-image: 
+        url('../img/Forma-1.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 100vh;
+    font-family: var(--fonte-principal);
+}
+
+.usuario {
+    padding-left: 7em;
+}
+
+.titulo__texto {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul);
+    margin-bottom: 1.5em ;
+}
+
+.card {
+    background: var(--cinza-claro-fundos);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.card__pet {
+    display: flex;
+}
+
+.contato__pet {
+    display: flex;
+}
+
+.mensagem__pet {
+    margin-left: .5em;
+}
+
+.nome__pet {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--azul);
+    margin-bottom: .5em;
+}
+
+.descricao__pet {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 2em;
+}
+
+.cidade__pet {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: .5em;
+}
+
+.mensagem__pet {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--cinza);
+}

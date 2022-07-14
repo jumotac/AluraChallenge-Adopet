@@ -1,6 +1,7 @@
 @import url('_variaveis.css');
 @import url('./css/cadastro.css');
 @import url('./css/login.css');
+@import url('./css/home.css');
 
 * {
     padding: 0;
