@@ -1,39 +1,23 @@
-.principal-cadastro {
-    display: flex;
-    flex-direction: column;
+.container-cadastro {
     background-image: 
         url('../img/Patas.svg'),
         url('../img/Forma-1.svg'),
         url('../img/Forma-3.svg');
     background-repeat: no-repeat;
-    background-position: right top, left top, left 20em;
-    min-height: 100vh;
-    font-family: var(--fonte-principal);
-}
-
-.cadastro {
-    text-align: center;
-    margin: 0 auto;
-    flex-grow: 1;
-}
-
-.cadastro__texto {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--azul);
-    margin-bottom: 1.5em ;
+    background-position: right top, left top, left 20em;   
 }
 
 .cadastro__titulo {
     font-size: 16px;
     font-weight: 400;
     color: var(--cinza);
+    margin-bottom: .25em;
 }
 
 .cadastro__input {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     background-color: var(--cinza-claro-fundos);
-    width: 80%;
+    width: 100%;
     padding: 12px 4px;
     border: none;
     border-radius: 6px;
@@ -46,8 +30,45 @@
     color: var(--cinza-claro);
 }
 
-.senha::placeholder {
+/* input.cadastro__input */
+
+input.cadastro__input.senha::placeholder {
     background-image: url('/img/Vector.svg');
     background-repeat: no-repeat;
     background-position: 25em;
+}
+
+.botao {
+    width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+    .container-cadastro {
+        background-image:
+        url('../img/Patas-ipad.svg'),
+        url('../img/Forma-1-ipad.svg'),
+        url('../img/Forma-2-ipad.svg'); 
+        min-height: 120vh;
+        background-position: right top, left top, right center; 
+    }
+    .ficha-cadastro {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    input.cadastro__input.senha::placeholder {
+        background-position: 22em;
+    }   
+}
+
+@media screen and (min-width: 1440px) {
+    .conteudo {
+        margin-top: 0;
+    }
+    .senha {
+        width: 50%;
+    }
+    .botao-cadastro {
+        width: 20%;
+    }
 }

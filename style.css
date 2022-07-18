@@ -1,9 +1,27 @@
-@import url('_variaveis.css');
+@import url('./css/inicio.css');
 @import url('./css/cadastro.css');
 @import url('./css/login.css');
 @import url('./css/home.css');
 @import url('./css/mensagem.css');
 @import url('./css/perfil.css');
+
+:root {
+    --cor-de-fundo: #E5E5E5;
+    
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --rosa-claro: #FF9D9E;
+    --creme: #FCF0E3;
+
+    --cinza: #737380;    
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+    --branco: #FFFFFF;
+
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'IBM Plex Sans';
+}
 
 * {
     padding: 0;
@@ -11,73 +29,16 @@
     box-sizing: border-box;
 }
 
-.principal {
-    background-color: var(--azul);
+body {
     display: flex;
     flex-direction: column;
-    background-image: 
-            url('../img/Forma-1.svg'),
-            url('./img/Forma-2.svg'),
-            url('./img/Ilustração.svg');
-        background-repeat: no-repeat;
-        background-position: left top, right center, bottom 5.375em center;
-        min-height: 100vh;
-        font-family: var(--fonte-principal);
-        font-size: 16px;
-        font-weight: 400;
+    min-height: 100vh;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--azul);
 }
 
-.cabecalho {
-    padding: 3em;
-}
-
-.cabecalho__imagem {
-    padding-right: 2em;
-}
-
-.conteudo {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    flex-grow: 1;
-}
-
-.conteudo__titulo {
-    color: var(--branco);
-    font-family: var(--fonte-secundaria);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 48px;
-}
-
-.conteudo__texto {
-    color: var(--branco);
-    font-style: normal;
-    line-height: 24px;
-    margin: 1em 0;
-}
-
-.conteudo__link {
-    margin: 0 auto 1em auto;
-
-    display: block;
-    background-color: var(--coral);
-    border-radius: 6px;
-    padding: 0.5em;
+h1 {
+    font-size: 16px;
     font-weight: 600;
-    color: var(--branco);
-    text-decoration: none;
-    width: 12rem;
-}
-
-.rodape {
-    background-color: var(--verde);
-    color: var(--branco);
-    padding: 3em;
-    text-align: center;
-}
-
-.senha {
-    margin-bottom: .5em;
 }

@@ -5,35 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdoPet - Mensagem </title>
+    <link rel="icon" href="./img/pata-azul.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="principal-home">
+<body class="container-msg">
+
     <header class="cabecalho">
+        <img src="/img/Logo-branco.svg" alt="Logo da adopet" class="cabecalho__imagem logo-adopet logo-adopet-home">
         <a href="#"><img src="./img/Casa.svg" alta="Página inicial" class="cabecalho__imagem"></a>
         <a href="#"><img src="/img/Mensagens.svg" alt="Página de cadastro" class="cabecalho__imagem"></a>
         <a href="#"><img src="/img/Usuário.svg" alt="Página de cadastro" class="cabecalho__imagem usuario"></a>
     </header>   
 
-    <main class="titulo__mensagem">
-        <h1 class="titulo__texto">Envie uma mensagem para<br>a pessoa ou instituição que<br>está cuidado do animal:</h1>
+    <main class="conteudo home">
+        <section class="descricao-home">
+            <p class="conteudo__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+        </section>    
+
     
-        <section class="mensagem">
-            <h2 class="mensagem__titulo">Nome</h2>
-            <input type="text" placeholder="Digite seu nome completo" class="mensagem__input"> 
-            <h2 class="mensagem__titulo">Telefone</h2>
-            <input type="tel" placeholder="Insira seu telefone e/ou whatsapp" class="mensagem__input"> 
-            <h2 class="mensagem__titulo">Nome do animal</h2>
-            <input type="text" placeholder="Por qual animal você se interessou?" class="mensagem__input">
-            <h2 class="mensagem__titulo">Mensagem</h2>
-            <input type="text" placeholder="Escreva sua mensagem." class="mensagem__input msg">
-            <a href="#" class="mensagem__link">Enviar</a>   
+        <section class="container-ficha">
+            <h1 class="titulo-ficha">Nome</h1>
+            <input type="text" placeholder="Digite seu nome completo" class="input-ficha"> 
+            <h1 class="titulo-ficha">Telefone</h1>
+            <input type="tel" placeholder="Insira seu telefone e/ou whatsapp" class="input-ficha"> 
+            <h1 class="titulo-ficha">Nome do animal</h1>
+            <input type="text" placeholder="Por qual animal você se interessou?" class="input-ficha">
+            <h1 class="titulo-ficha">Mensagem</h1>
+            <div>
+                <textarea type="text" placeholder="Escreva sua mensagem." class="input-ficha msg"></textarea>
+            </div>
+            <a href="#" class="conteudo__link botao">Enviar</a>   
         </section>
     </main>
     
     <footer class="rodape">
-        <p class="rodape__texto">2022 - Desenvolvido por Alura</p>
-    </footer>       
+        <p class="rodape__texto">2022 - Desenvolvido por <strong>Ju Mota</strong></p>
+    </footer>   
+    
+</body>
+</html>

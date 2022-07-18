@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdoPet - Login </title>
+    <link rel="icon" href="./img/pata-azul.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="principal-cadastro">
+<body class="container-cadastro">
+
     <header class="cabecalho">
+        <img src="/img/Logo-branco.svg" alt="Logo da adopet" class="cabecalho__imagem logo-adopet">
         <a href="#"><img src="./img/Casa.svg" alta="Página inicial" class="cabecalho__imagem"></a>
         <a href="#"><img src="/img/Mensagens.svg" alt="Página de cadastro" class="cabecalho__imagem"></a>
     </header>   
 
-    <main class="cadastro-login">
-        <img src="/img/Logo-azul.svg" alt="Logo adopet" class="cadastro__imagem">
-        <h1 class="cadastro__texto">Já tem conta? Faça seu login:</h1>
-        <h2 class="cadastro__titulo">Email</h2>
-        <input type="email" placeholder="Escolha seu melhor email" class="cadastro__input">
-        <h2 class="cadastro__titulo">Senha</h2>
-        <input type="password" placeholder="Crie uma senha" class="cadastro__input senha">
-        <div>
-            <a href="#" class="conteudo__login">Esqueci minha senha</a>
-            <a href="#" class="botao__login">Entrar</a>
-        </div>    
+    <main class="conteudo">
+        <section class="conteudo-descricao">
+            <img src="/img/Logo-azul.svg" alt="Logo adopet" class="conteudo__logo">
+            <p class="conteudo__texto login">Já tem conta? Faça seu login:</p>
+        </section>    
+        <section class="ficha-cadastro">
+            <h2 class="cadastro__titulo">Email</h2>
+            <input type="email" placeholder="Escolha seu melhor email" class="cadastro__input">
+            <h2 class="cadastro__titulo">Senha</h2>
+            <input type="password" placeholder="Crie uma senha" class="cadastro__input senha">
+            <div>
+                <a href="#" class="conteudo__login">Esqueci minha senha</a> 
+                <a href="#" class="botao__login">Entrar</a>
+            </div>    
+        </section>
     </main>
 
     <footer class="rodape">
-        <p class="rodape__texto">2022 - Desenvolvido por Alura</p>
+        <p class="rodape__texto">2022 - Desenvolvido por <strong>Ju Mota</strong></p>
     </footer> 
 </body>
 </html>

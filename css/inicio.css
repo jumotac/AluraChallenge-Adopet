@@ -1,0 +1,116 @@
+.container-inicio {
+    background-color: var(--azul);
+    background-image: 
+            url('../img/Forma-1.svg'),
+            url('../img/Forma-2.svg'),
+            url('../img/Ilustração.svg');
+        background-repeat: no-repeat;
+        background-position: left top, right 11em, bottom 5.375em center;
+}
+
+.cabecalho {
+    padding: 3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecalho__imagem {
+    display: flex;
+    padding-right: 2em;
+    cursor: pointer;
+}
+
+.conteudo {
+    text-align: center;
+    width: 90%;
+    margin: 2em auto 0 auto;
+    flex-grow: 1;
+}
+
+.conteudo-inicio {
+    width: 60%;
+}
+
+.conteudo-descricao {
+    margin-bottom: 1em;
+}
+
+.conteudo__titulo {
+    font-family: var(--fonte-secundaria);
+    color: var(--branco);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: .5em;
+}
+
+.conteudo__logo {
+    margin-bottom: .5em;
+}
+
+.texto-inicio {
+    color: var(--branco);
+}
+
+.conteudo__link {
+    margin: 1em auto 1em auto;
+    display: block;
+    background-color: var(--coral);
+    border-radius: 6px;
+    padding: 0.5em;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    width: 80%;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rodape {
+    background-color: var(--verde);
+    color: var(--branco);
+    padding: 3em;
+    text-align: center;
+}
+
+.logo-adopet,
+.texto-ipad {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container-inicio  {
+        background-image: 
+        url('../img/Forma-1-ipad.svg'),
+        url('../img/Forma-2-ipad.svg'),
+        url('../img/Ilustração-ipad.svg');
+        background-position: left top, right center, bottom 5.375em center;
+        min-height: 125vh;
+    }
+    .logo-adopet {
+        display: block;
+    }
+    .conteudo {
+        margin-top: 6em;
+        width: 70%;
+    }
+    .conteudo-descricao {
+        margin-top: 3em;
+    }
+    .conteudo-inicio {
+        width: 60%;
+    }
+      
+    .texto-ipad {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .conteudo {
+        margin-top: 0;
+    }
+    .conteudo__link {
+        width: 50%;
+    }
+}

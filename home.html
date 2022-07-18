@@ -4,152 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdoPet - Cadastro </title>
+    <title>AdoPet - Home </title>
+    <link rel="icon" href="./img/pata-azul.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="principal-home">
+<body class="container-home">
+
     <header class="cabecalho">
+        <img src="/img/Logo-branco.svg" alt="Logo da adopet" class="cabecalho__imagem logo-adopet logo-adopet-home">
         <a href="#"><img src="./img/Casa.svg" alta="Página inicial" class="cabecalho__imagem"></a>
         <a href="#"><img src="/img/Mensagens.svg" alt="Página de cadastro" class="cabecalho__imagem"></a>
         <a href="#"><img src="/img/Usuário.svg" alt="Página de cadastro" class="cabecalho__imagem usuario"></a>
     </header>   
 
-    <main class="lista__pet">
-        <h1 class="titulo__texto">Olá! Veja os amigos </br>disponíveis para adoção!</h1>
+    <main class="conteudo home">
+        <section class="descricao-home">
+            <p class="conteudo__texto">Olá!<br> Veja os amigos disponíveis para adoção!</p>
+        </section>    
 
-    <section> 
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Dunga.svg" alt="Foto do cachorro Dunga">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Dunga</h2>
-                <h3 class="descricao__pet">2 anos </br>Porte pequeno </br>Calmo e educado</h3>
-                <p class="cidade__pet">Rio de Janeiro (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+        <ul class="lista__pet"> 
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Dunga.svg" alt="Foto do cachorro Dunga" class="foto-pet">
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Felícia.svg" alt="Foto da gata Felícia">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Felícia</h2>
-                <h3 class="descricao__pet">3 meses</br>Porte pequeno</br>Ativa e carinhosa</h3>
-                <p class="cidade__pet">Nova Iguaçu (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Dunga</h1>
+                    <p class="descricao__pet">2 anos </br>Porte pequeno </br>Calmo e educado</p>
+                    <p class="cidade__pet">Rio de Janeiro (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
                 </div>
-            </div>
-        </div>       
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Sirius.svg" alt="Foto do cachorro Sirius">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Sirius</h2>
-                <h3 class="descricao__pet">6 anos </br>Porte grande</br> Ativo e educado</h3>
-                <p class="cidade__pet">Duque de Caxias (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Felícia.svg" alt="Foto da gata Felícia" class="foto-pet">
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Fiona.svg" alt="Foto do cachorra Fiona">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Fiona</h2>
-                <h3 class="descricao__pet">3 anos </br>Porte pequeno </br>Calma e carinhosa</h3>
-                <p class="cidade__pet">São Gonçalo (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Felícia</h1>
+                    <p class="descricao__pet">3 meses</br>Porte pequeno</br>Ativa e carinhosa</p>
+                    <p class="cidade__pet">Nova Iguaçu (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Sid.svg" alt="Foto do cachorro Sid">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Sid</h2>
-                <h3 class="descricao__pet">8 meses </br>Porte médio/grande </br>Brincalhão e amável</h3>
-                <p class="cidade__pet">Rio de Janeiro (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+            </li>       
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Sirius.svg" alt="Foto do cachorro Sirius" class="foto-pet">
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Yoda.svg" alt="Foto do gato Yoda">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Yoda</h2>
-                <h3 class="descricao__pet">1 ano </br>Porte médio </br>Ativo e carinhoso</h3>
-                <p class="cidade__pet">Nova Iguaçu (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Sirius</h1>
+                    <p class="descricao__pet">6 anos </br>Porte grande</br> Ativo e educado</p>
+                    <p class="cidade__pet">Duque de Caxias (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Lua.svg" alt="Foto da gata Lua">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Dunga</h2>
-                <h3 class="descricao__pet">6 meses</br>Porte médio </br>Ativa e carinhosa</h3>
-                <p class="cidade__pet">Duque de Caxias (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Fiona.svg" alt="Foto do cachorra Fiona" class="foto-pet">
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Amora.svg" alt="Foto da cachorra Amora">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Amora</h2>
-                <h3 class="descricao__pet">45 dias</br>orte grande </br>Calma e carinhosa</h3>
-                <p class="cidade__pet">São Gonçalo (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Fiona</h1>
+                    <p class="descricao__pet">3 anos </br>Porte pequeno </br>Calma e carinhosa</p>
+                    <p class="cidade__pet">São Gonçalo (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__pet">
-                <img src="./img/Zelda.svg" alt="Foto da gata Zelda">
-            </div>
-            <div class="card__descricao">
-                <h2 class="nome__pet">Dunga</h2>
-                <h3 class="descricao__pet">5 meses</br>Porte médio</br> Ativa e amável</h3>
-                <p class="cidade__pet">Rio de Janeiro (RJ)</p>
-                <div class="contato__pet">
-                <img src="./img/mensagem.svg" alt="ícone de um balão">
-                <p class="mensagem__pet">Falar com responsável</p>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Sid.svg" alt="Foto do cachorro Sid" class="foto-pet">
                 </div>
-            </div>
-        </div>          
-    </section>
-    <footer class="rodape">
-        <p class="rodape__texto">2022 - Desenvolvido por Alura</p>
-    </footer>       
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Sid</h1>
+                    <p class="descricao__pet">8 meses </br>Porte médio/grande </br>Brincalhão e amável</p>
+                    <p class="cidade__pet">Rio de Janeiro (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Yoda.svg" alt="Foto do gato Yoda" class="foto-pet">
+                </div>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Yoda</h1>
+                    <p class="descricao__pet">1 ano </br>Porte médio </br>Ativo e carinhoso</p>
+                    <p class="cidade__pet">Nova Iguaçu (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Lua.svg" alt="Foto da gata Lua" class="foto-pet">
+                </div>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Dunga</h1>
+                    <p class="descricao__pet">6 meses</br>Porte médio </br>Ativa e carinhosa</p>
+                    <p class="cidade__pet">Duque de Caxias (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Amora.svg" alt="Foto da cachorra Amora" class="foto-pet">
+                </div>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Amora</h1>
+                    <p class="descricao__pet">45 dias</br>orte grande </br>Calma e carinhosa</p>
+                    <p class="cidade__pet">São Gonçalo (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card__pet">
+                    <img src="./img/Zelda.svg" alt="Foto da gata Zelda" class="foto-pet">
+                </div>
+                <div class="card__descricao">
+                    <h1 class="nome__pet">Dunga</h1>
+                    <p class="descricao__pet">5 meses</br>Porte médio</br> Ativa e amável</p>
+                    <p class="cidade__pet">Rio de Janeiro (RJ)</p>
+                    <div class="contato__pet">
+                    <img src="./img/mensagem.svg" alt="ícone de um balão">
+                    <p class="mensagem__pet">Falar com responsável</p>
+                    </div>
+                </div>
+            </li>          
+        </ul>
     </main>        
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por <strong>Ju Mota</strong></p>
+    </footer> 
+    
+</body>
+</html>    

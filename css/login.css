@@ -1,6 +1,12 @@
 .cadastro-login {
     text-align: center;
+    width: 70%;
+    margin: 0 auto;
     flex-grow: 1;
+}
+
+h1.cadastro__texto.login {
+    margin: 3.5em 0 3em 0;
 }
 
 .conteudo__login {
@@ -21,3 +27,4 @@
         text-decoration: none;
         width: 12rem;
 }
+
