@@ -5,8 +5,13 @@
     background-position: left top;
 }
 
-.usuario {
+/* .usuario {
     padding-left: 7.5em;
+} */
+
+.usuario {
+    display: flex;
+    padding-right: 2em;
 }
 
 .home {
@@ -98,16 +103,16 @@
         url('../img/Forma-2-ipad.svg'); 
         background-position: left top, right center;
     }
+    .cabecalho {
+        width: 80%;
+        margin: 3em auto;
+        padding: 0;
+    }
     .home {
         margin-top: 5em;
     }
-
-    .logo-adopet-home {
-        padding-left: 6em;
-    }
-
     .usuario {
-        padding-left: 52em;
+        padding: 0;
     }
 
     .lista__pet {

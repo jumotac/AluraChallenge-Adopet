@@ -15,16 +15,3 @@ h1.cadastro__texto.login {
     font-weight: 400;
 }
 
-.botao__login {
-        margin: 2em auto 1em auto;
-    
-        display: block;
-        background-color: var(--coral);
-        border-radius: 6px;
-        padding: 0.5em;
-        font-weight: 600;
-        color: var(--branco);
-        text-decoration: none;
-        width: 12rem;
-}
-

@@ -5,9 +5,8 @@
     text-align: center;
 }
 
-.perfil {
+.foto-perfil {
     height: 40px;
-    padding-left: 7em;
 }
 
 .perfil__imagem,
@@ -36,9 +35,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .perfil {
+    .foto-perfil {
         height: 64px;
-        padding-left: 23em;
     }
 }
 

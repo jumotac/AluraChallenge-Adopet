@@ -30,8 +30,6 @@
     color: var(--cinza-claro);
 }
 
-/* input.cadastro__input */
-
 input.cadastro__input.senha::placeholder {
     background-image: url('/img/Vector.svg');
     background-repeat: no-repeat;
@@ -68,7 +66,7 @@ input.cadastro__input.senha::placeholder {
     .senha {
         width: 50%;
     }
-    .botao-cadastro {
-        width: 20%;
+    .botao {
+        width: 30%;
     }
 }

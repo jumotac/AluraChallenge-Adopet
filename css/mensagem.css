@@ -47,8 +47,11 @@
         min-height: 120vh;
         background-position: left top, right center; 
     }
+    .descricao-home {
+        width: 30%;
+    }
     .container-ficha {
-        width: 70%;
+        width: 50%;
         margin: 1em auto;
     }
 }
