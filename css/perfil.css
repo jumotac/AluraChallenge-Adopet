@@ -1,5 +1,5 @@
 .cadastro__perfil {
-    color: var(--cinza);
+    color: var(--verde-escuro);
     font-size: 21px;
     font-weight: 600;
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .perfil__login {
-    color: var(--coral);
+    color: var(--vermelho-escuro);
     font-size: 12px;
     font-weight: 400;
 }

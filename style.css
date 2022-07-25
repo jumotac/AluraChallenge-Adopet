@@ -6,6 +6,7 @@
 @import url('./css/perfil.css');
 
 :root {
+    --background: #F8E4E1;
     --cor-de-fundo: #E5E5E5;
     
     --azul: #3772FF;
@@ -13,6 +14,11 @@
     --coral: #FC7071;
     --rosa-claro: #FF9D9E;
     --creme: #FCF0E3;
+    --roxo-escuro: #4B465D;
+    --verde-escuro: #73C0B5;
+    --vermelho-escuro: #CD7575;
+    --azul-escuro: #64829D;
+    --laranja: #FAD1AC;
 
     --cinza: #737380;    
     --cinza-claro: #BCBCBC;
@@ -30,12 +36,14 @@
 }
 
 body {
+    background: var(--background);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: var(--fonte-principal);
     font-size: 16px;
-    color: var(--azul);
+    color: var(--azul-escuro)
+
 }
 
 h1 {

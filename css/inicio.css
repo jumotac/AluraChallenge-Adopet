@@ -1,9 +1,9 @@
 .container-inicio {
-    background-color: var(--azul);
+    background-color: var(--verde-escuro);
     background-image: 
-            url('../img/Forma-1.svg'),
-            url('../img/Forma-2.svg'),
-            url('../img/Ilustração.svg');
+            url('../img/bg-mobile/formaHeader-Roxo.svg'),
+            url('../img/bg-mobile/formaMain-Roxo.svg'),
+            url('../img/bg-mobile/ilustracao.svg');
         background-repeat: no-repeat;
         background-position: left top, right 11em, bottom 5.375em center;
 }
@@ -61,7 +61,7 @@
 .conteudo__link {
     margin: 1em auto 1em auto;
     display: block;
-    background-color: var(--coral);
+    background-color: var(--vermelho-escuro);
     border-radius: 6px;
     padding: 0.5em;
     font-weight: 600;
@@ -72,7 +72,7 @@
 }
 
 .rodape {
-    background-color: var(--verde);
+    background-color: var(--roxo-escuro);
     color: var(--branco);
     padding: 3em;
     text-align: center;
@@ -86,9 +86,9 @@
 @media screen and (min-width: 768px) {
     .container-inicio  {
         background-image: 
-        url('../img/Forma-1-ipad.svg'),
-        url('../img/Forma-2-ipad.svg'),
-        url('../img/Ilustração-ipad.svg');
+        url('../img/bg-responsivo/formaHeader-Roxo.svg'),
+        url('../img/bg-responsivo/formaMain-Roxo.svg'),
+        url('../img/bg-responsivo/ilustracao.svg');
         background-position: left top, right center, bottom 5.375em center;
         min-height: 125vh;
     }

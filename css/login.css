@@ -10,7 +10,7 @@ h1.cadastro__texto.login {
 }
 
 .conteudo__login {
-    color: var(--coral);
+    color: var(--vermelho-escuro);
     font-size: 12px;
     font-weight: 400;
 }

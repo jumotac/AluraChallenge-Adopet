@@ -1,6 +1,6 @@
 .container-msg {
     background-image: 
-    url('../img/Forma-1.svg');
+    url('../img/bg-mobile/formaHeader-RoxoClaro.svg');
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -42,8 +42,8 @@
 @media screen and (min-width: 768px) {
     .container-msg {
         background-image:
-        url('../img/Forma-1-ipad.svg'),
-        url('../img/Forma-2-ipad.svg'); 
+        url('../img/bg-responsivo/formaHeader-RoxoClaro.svg'),
+        url('../img/bg-responsivo/formaMain-RoxoClaro.svg'); 
         min-height: 120vh;
         background-position: left top, right center; 
     }

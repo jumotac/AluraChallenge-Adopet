@@ -1,16 +1,15 @@
 .container-cadastro {
     background-image: 
-        url('../img/Patas.svg'),
-        url('../img/Forma-1.svg'),
-        url('../img/Forma-3.svg');
+        url('../img/bg-mobile/patasHeader.svg'),
+        url('../img/bg-mobile/formaHeader-RoxoClaro.svg'),
+        url('../img/bg-mobile/formaMain-RoxoClaro.svg');
     background-repeat: no-repeat;
     background-position: right top, left top, left 20em;   
 }
 
 .cadastro__titulo {
     font-size: 16px;
-    font-weight: 400;
-    color: var(--cinza);
+    font-weight: 600;
     margin-bottom: .25em;
 }
 
@@ -40,12 +39,13 @@ input.cadastro__input.senha::placeholder {
     width: 40%;
 }
 
+
 @media screen and (min-width: 768px) {
     .container-cadastro {
         background-image:
-        url('../img/Patas-ipad.svg'),
-        url('../img/Forma-1-ipad.svg'),
-        url('../img/Forma-2-ipad.svg'); 
+        url('../img/bg-responsivo/patas.svg'),
+        url('../img/bg-responsivo/formaHeader-RoxoClaro.svg'),
+        url('../img/bg-responsivo/formaMain-RoxoClaro.svg'); 
         min-height: 120vh;
         background-position: right top, left top, right center; 
     }
@@ -53,7 +53,6 @@ input.cadastro__input.senha::placeholder {
         width: 60%;
         margin: 0 auto;
     }
-
     input.cadastro__input.senha::placeholder {
         background-position: 22em;
     }   
