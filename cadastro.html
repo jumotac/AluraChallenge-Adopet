@@ -16,28 +16,37 @@
 
     <header class="cabecalho">
         <div class="cabecalho-principal">
-        <img src="/img/bg-responsivo/logoHeader.svg" alt="Logo da adopet" class="cabecalho__imagem logo-adopet">
+        <img src="./img/bg-responsivo/logoHeader.svg" alt="Logo da adopet" class="cabecalho__imagem logo-adopet">
         <a href="index.html"><img src="./img/icones/casa.svg" alt="Página inicial" class="cabecalho__imagem"></a>
-        <a href="mensagem.html"><img src="/img/icones/msg.svg" alt="Página de cadastro" class="cabecalho__imagem"></a>
+        <a href="mensagem.html"><img src="./img/icones/msg.svg" alt="Página de cadastro" class="cabecalho__imagem"></a>
         </div>
     </header>   
 
     <main class="conteudo">
         <section class="conteudo-descricao">
-            <span><img src="/img/bg-responsivo/logo-Roxo.svg" alt="Logo adopet" class="conteudo__logo"></span>
+            <img src="./img/bg-mobile/logo-Roxo.svg" alt="Logo adopet" class="conteudo__logo logo-mobile">
+            <img src="./img/bg-responsivo/logo-Roxo.svg" alt="Logo adopet" class="conteudo__logo logo-responsivo">
             <p class="conteudo__texto">Ainda não tem cadastro?</p>
             <p class="conteudo__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
         </section>    
         <section class="ficha-cadastro">
-            <h2 class="cadastro__titulo">Email</h2>
-            <input type="email" placeholder="Escolha seu melhor email" class="cadastro__input login">
+
+            <h2 class="cadastro__titulo" for="email">Email</h2>
+            <input type="email" placeholder="Escolha seu melhor email" class="cadastro__input login" nome="email" id="email" data-tipo="email" required>
+            <!-- <span class="input__mensagem-sucesso"></span>
+            <span class="input__mensagem-erro">Este campo não está válido</span> -->
+
             <h2 class="cadastro__titulo">Nome</h2>
             <input type="text" placeholder="Digite seu nome completo" class="cadastro__input login">
+
             <h2 class="cadastro__titulo">Senha</h2>
             <input type="password" placeholder="Crie uma senha" class="cadastro__input senha">
+
             <h2 class="cadastro__titulo">Confirma sua senha</h2>
             <input type="password" placeholder="Repita a senha criada acima" class="cadastro__input senha">
+
             <a href="#" class="conteudo__link botao">Cadastrar</a>
+
         </section>
     </main>
 

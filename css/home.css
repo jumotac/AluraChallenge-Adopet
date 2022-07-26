@@ -5,10 +5,6 @@
     background-position: left top;
 }
 
-/* .usuario {
-    padding-left: 7.5em;
-} */
-
 .usuario {
     display: flex;
     padding-right: 2em;

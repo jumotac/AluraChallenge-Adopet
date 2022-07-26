@@ -78,7 +78,7 @@
     text-align: center;
 }
 
-.logo-adopet,
+.logo-responsivo,
 .texto-ipad {
     display: none;
 }
@@ -92,12 +92,16 @@
         background-position: left top, right center, bottom 5.375em center;
         min-height: 125vh;
     }
-    .logo-adopet {
-        display: block;
-    }
     .conteudo {
         margin-top: 6em;
         width: 70%;
+    }
+    .logo-responsivo {
+        display: block;
+        margin: 1em auto;
+    }
+    .logo-mobile {
+        display: none;
     }
     .conteudo-descricao {
         margin-top: 3em;
