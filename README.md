@@ -6,6 +6,8 @@
 
 Em 4 semanas vou desenvolver a versão das telas do usuário adotante para o site da AdoPet, que contará com página de login, cadastro, lista de pets e formulário de mensagem. 
 
+[LINK PARA O PROJETO ORGINAL NO FIGMA](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet) 
+
 #### - 01 semana:
 
 **Criando um site:** Construir as telas iniciais como a home, login, cadastro e galeria de animais seguindo a metodologia mobile-first.
@@ -58,7 +60,6 @@ Ferramentas utilizadas para auxiliar na execução do projeto durante todo o cha
   - [Alura](www.alura.com.br)   
 
 
+### :globe_with_meridians:Projeto Final: 
 
-### :globe_with_meridians:Projeto Original: 
-
-[LINK PARA O PROJETO ORGINAL NO FIGMA](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet) 
+[LINK ADOPET - DESENVOLVIDO POR JU MOTA](https://jumotac.github.io/AluraChallenge-Adopet/) 
