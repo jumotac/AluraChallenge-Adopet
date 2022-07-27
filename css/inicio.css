@@ -78,6 +78,7 @@
     text-align: center;
 }
 
+.logo-adopet,
 .logo-responsivo,
 .texto-ipad {
     display: none;
@@ -96,6 +97,7 @@
         margin-top: 6em;
         width: 70%;
     }
+    .logo-adopet,
     .logo-responsivo {
         display: block;
         margin: 1em auto;
