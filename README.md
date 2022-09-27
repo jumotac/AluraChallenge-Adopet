@@ -8,7 +8,7 @@
 | :rocket: URL | https://jumotac.github.io/AluraChallenge-Adopet/
 | :fire: Desafio | https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br
 
-![](https://jumotac.github.io/AluraChallenge-Adopet/#vitrinedev)
+![](./img/img-adopet.png#vitrinedev)
 
 ## :cat:Sobre o Desafio AdoPet:dog:
 
