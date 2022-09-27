@@ -71,3 +71,6 @@ Ferramentas utilizadas para auxiliar na execução do projeto durante todo o cha
 ### :globe_with_meridians:Projeto Final: 
 
 [LINK ADOPET - DESENVOLVIDO POR JU MOTA](https://jumotac.github.io/AluraChallenge-Adopet/) 
+
+
+![](./img/img-adopet.png)
