@@ -1,6 +1,14 @@
 # _Alura Challenge Front-End 4 Edição_: Criando um site com a metodologia mobile-first :woman_technologist:
 
 
+| :placard: Vitrine.Dev |     |
+| ------------- | --- |
+| :sparkles: Nome | **Adopet** 
+| :label: Tecnologias | HTML, CSS 
+| :rocket: URL | https://jumotac.github.io/AluraChallenge-Adopet/
+| :fire: Desafio | https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br
+
+![](https://jumotac.github.io/AluraChallenge-Adopet/#vitrinedev)
 
 ## :cat:Sobre o Desafio AdoPet:dog:
 
