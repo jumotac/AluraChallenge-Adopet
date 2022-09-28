@@ -6,7 +6,7 @@
 | :fire: Desafio | Alura Challenge Front-End 4 Edição: Criando um site com a metodologia mobile-first
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/jumotac/AluraChallenge-Adopet/blob/master/img/img-adopet.png#vitrinedev)
+![](https://raw.githubusercontent.com/jumotac/AluraChallenge-Adopet/master/img/img-adopet.png#vitrinedev)
 
 
 ## :cat:Sobre o Desafio AdoPet:dog:
