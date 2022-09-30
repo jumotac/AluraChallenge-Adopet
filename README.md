@@ -1,6 +1,6 @@
 | :placard: Vitrine.Dev |     |
 | ------------- | --- |
-| :sparkles: Nome | **Adopet** 
+| :sparkles: Nome | Alura Challenge Front-End 4ª Edição - **Adopet** 
 | :label: Tecnologias | HTML, CSS 
 | :rocket: URL | https://jumotac.github.io/AluraChallenge-Adopet/
 | :fire: Desafio | Alura Challenge Front-End 4 Edição: Criando um site com a metodologia mobile-first
